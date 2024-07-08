@@ -1,14 +1,15 @@
-# ![hero](/public/semant.png)
 
 <p align="center">
 	<h1 align="center"><b>Semant</b></h1>
 <p align="center">
     An Answer Engine
     <br />
-    <br />
     <a href="https://semant.co">Website</a>
   </p>
 </p>
+
+# ![hero](/public/semant.png)
+
 
 # :construction: Under Active Development
 
