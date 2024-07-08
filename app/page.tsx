@@ -7,9 +7,8 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col items-center p-4">
         <Header />
-        {/* <div className="w-full max-w-7xl grid grid-cols-5 gap-8 mt-16"> */}
-        <div className="w-full max-w-7xl gap-8 mt-16 md:grid md:grid-cols-5">
-          <div className="col-start-1 col-span-1 flex items-center justify-end">
+        <div className="w-full space-y-4 md:space-y-0 max-w-7xl gap-8 md:mt-16 mt-8 md:grid md:grid-cols-5 grid-cols-1">
+          <div className="col-start-1 col-span-1 flex items-center md:justify-end justify-center">
             <h1 className="text-4xl font-semibold">semant</h1>
           </div>
           <div className="col-start-2 col-span-3">
@@ -47,7 +46,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="col-start-5 col-span-3 relative max-h-[12rem] overflow-hidden">
+          <div className="col-start-5 col-span-3 relative max-h-[12rem] overflow-hidden md:block hidden">
             <div
               className="w-full h-full absolute"
               style={{
@@ -60,19 +59,18 @@ export default function Home() {
             </div>
           </div>
           <div className="col-span-full space-y-4">
-            <p className="text-center text-[4rem] font-semibold leading-[5rem]">
+            <p className="text-center md:text-[4rem] text-[3rem] font-semibold md:leading-[5rem] leading-[3.5rem] max-w-[46rem] m-auto">
               <span className="underline underline-offset-8">
                 Revolutionizing
               </span>{" "}
               search
-              <br />
               from the ground up.
             </p>
-          <div className="max-w-[36rem] m-auto text-center">
-            Supercharge your productivity with our groundbreaking search, rebuilt
-            leveraging the latest AI models and knowledge sources to deliver
-            unparalleled speed, relevance, and usability.
-          </div>
+            <div className="max-w-[36rem] m-auto text-center">
+              Supercharge your productivity with our groundbreaking search,
+              rebuilt leveraging the latest AI models and knowledge sources to
+              deliver unparalleled speed, relevance, and usability.
+            </div>
           </div>
         </div>
       </main>
