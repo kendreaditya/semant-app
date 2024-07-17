@@ -14,7 +14,10 @@ export default function Home() {
           <div className="col-start-2 col-span-3">
             <SearchBar />
           </div>
-          <div className="col-start-2 col-span-3 relative max-h-[12rem] overflow-hidden">
+          <div
+              className="col-start-2 col-span-3 relative max-h-[12rem] overflow-hidden"
+              style={{"animation": "easeUp 1s ease-in-out"}}
+            >
             <div
               className="w-full h-full absolute"
               style={{
@@ -22,7 +25,7 @@ export default function Home() {
                   "linear-gradient(to bottom, transparent 0%, black 100%)",
               }}
             />
-            <div className="glow-container p-5">
+            <div className="glow-container p-5 k">
               <p className="text-sm">
                 Async in JavaScript refers to asynchronous programming, which is
                 a model that allows multiple things to happen at the same time.
@@ -46,7 +49,10 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="col-start-5 col-span-3 relative max-h-[12rem] overflow-hidden md:block hidden">
+          <div
+            className="col-start-5 col-span-3 relative max-h-[12rem] overflow-hidden md:block hidden"
+            style={{"animation": "easeUp 1s ease-in-out"}}
+          >
             <div
               className="w-full h-full absolute"
               style={{
@@ -54,7 +60,7 @@ export default function Home() {
                   "linear-gradient(to bottom, transparent 0%, black 100%)",
               }}
             />
-            <div className="glow-container p-5">
+            <div className="glow-container p-5" >
               <References />
             </div>
           </div>

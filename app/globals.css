@@ -38,3 +38,12 @@ body {
   border-radius: 0.75rem;
   box-shadow: inset 0px 4px 100px 5px rgba(255, 255, 255, 0.05);
 }
+
+@keyframes easeUp {
+  0% { /* Start at 0% of the animation duration */
+    transform: translateY(25px); /* Translate the component 100px down */
+  }
+  100% { /* End at 100% of the animation duration */
+    transform: translateY(0); /* Translate the component back to its normal position */
+  }
+}
